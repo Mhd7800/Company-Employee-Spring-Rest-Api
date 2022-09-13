@@ -22,7 +22,7 @@ public class CompanyController {
     private CompanyService companyService;
 
 
-    //Department kaydetme url define ediyoruz
+    //Company kaydetme 
     @PostMapping("/Save")
     public ResponseEntity<Response> SaveCompany(@RequestBody Company company)
     {
